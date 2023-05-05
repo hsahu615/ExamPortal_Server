@@ -1,8 +1,8 @@
 package com.exam.model;
 
 public class JwtRequest {
-    String username;
-    String password;
+    private String username;
+    private String password;
 
     public JwtRequest(String username, String password) {
         this.username = username;

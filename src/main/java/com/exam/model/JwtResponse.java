@@ -1,7 +1,7 @@
 package com.exam.model;
 
 public class JwtResponse {
-    String token;
+    private String token;
 
     public JwtResponse() {
     }
@@ -14,7 +14,4 @@ public class JwtResponse {
         return token;
     }
 
-    public void setToken(String token) {
-        this.token = token;
-    }
 }
